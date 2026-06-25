@@ -6,7 +6,7 @@ abstract class Product {
     protected $price;
 
     public function __construct($id, $name, $price) {
-        $this->id = id;
+        $this->id = $id;
         $this->name = $name;
         $this->price = $price;
     }
